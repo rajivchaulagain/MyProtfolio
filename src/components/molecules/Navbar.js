@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar,  Nav, Container } from 'react-bootstrap'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 import AllButton from '../atoms/AllButton'
 
 const Navba = () => {
@@ -12,9 +12,9 @@ const Navba = () => {
                     <Nav className="ms-auto align-items-center">
                         <Nav.Link className='text-light'>Documentation</Nav.Link>
                         <Nav.Link href="#link">
-                           <AllButton variant="primary">
-                               <h4>Sign up</h4>
-                           </AllButton>
+                            <AllButton>
+                                <h6>Sign up</h6>
+                            </AllButton>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

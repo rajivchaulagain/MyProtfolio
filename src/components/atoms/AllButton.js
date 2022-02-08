@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap"
 import PropTypes from 'prop-types';
 
 const AllButton = (props) => {
-    const { children, variant="primary", size="sm" } = props
+    const { children, variant, size="sm" } = props
     return (
         <Button className={`btn btn-${variant} btn-${size}`} >
             {children}
