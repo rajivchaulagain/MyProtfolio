@@ -7,7 +7,7 @@ const TodoList = () => {
     const handleChange = (e) => {
         setText((e.target.value))
     }
-    const add = () => {
+    const NewItems = () => {
         setTodo([...todo, { id, title: text }])
     }
     const remove = (id) => {
@@ -23,7 +23,7 @@ const TodoList = () => {
         <div>
             <form onSubmit={handleSubmit}>
                 <input value={text} type="text" onChange={handleChange} />
-                <button onClick={add}> +</button>
+                <button onClick={NewItems}> +</button>
             </form>
             {
                 todo.length > 0 ?
