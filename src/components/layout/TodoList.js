@@ -14,7 +14,7 @@ const TodoList = () => {
         const removeItems = todo.filter(item => item.id !== id)
         setTodo(removeItems)
     }
- 
+
     const handleSubmit = e => {
         e.preventDefault()
         setText('')
